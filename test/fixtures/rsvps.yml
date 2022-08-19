@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  adults: 1
+  minors: 1
+  email: MyString
+  phone_number: MyString
+
+two:
+  adults: 1
+  minors: 1
+  email: MyString
+  phone_number: MyString
