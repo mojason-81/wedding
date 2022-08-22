@@ -77,3 +77,5 @@ end
 
 gem "tailwindcss-rails", "~> 2.0"
 gem "net-http"
+
+gem "rails-controller-testing", "~> 1.0"

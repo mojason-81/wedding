@@ -1,0 +1,14 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to 'Home', root_path, class: "ml-auto rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %></li>
+        <% if logged_in? %>
+          <%= link_to "Log out", logout_path, method: "delete" %>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!--<nav class="z-100 w-full flex p-4">-->
+<!--</nav>-->
